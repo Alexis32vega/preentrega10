@@ -1,0 +1,74 @@
+$primary-color: #3498db;
+$secondary-color: #2ecc71;
+$text-color: #333;
+$border-radius: 8px;
+
+.card {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: $border-radius;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    max-width: 300px;
+    margin: 20px auto;
+
+    &__image {
+        width: 100%;
+        height: auto;
+    }
+
+    &__content {
+        padding: 15px;
+        text-align: center;
+    }
+
+    &__name {
+        color: $primary-color;
+        margin: 0;
+    }
+
+    &__bio {
+        color: $text-color;
+        font-size: 0.9em;
+    }
+}
+$navbar-bg: #333;
+$navbar-text: #fff;
+$navbar-hover-bg: #555;
+$navbar-padding: 15px;
+
+.navbar {
+    background-color: $navbar-bg;
+    padding: $navbar-padding;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    &__logo {
+        color: $navbar-text;
+        font-size: 1.5em;
+        font-weight: bold;
+    }
+
+    &__menu {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        display: flex;
+
+        &__item {
+            margin-left: 20px;
+
+            a {
+                color: $navbar-text;
+                text-decoration: none;
+                padding: 5px 10px;
+
+                &:hover {
+                    background-color: $navbar-hover-bg;
+                    border-radius: 4px;
+                }
+            }
+        }
+    }
+}

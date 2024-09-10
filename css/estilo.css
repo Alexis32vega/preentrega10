@@ -1,0 +1,85 @@
+.card {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    max-width: 300px;
+    margin: 20px auto;
+}
+.card__image {
+    width: 100%;
+    height: auto;
+}
+.card__content {
+    padding: 15px;
+    text-align: center;
+}
+.card__name {
+    color: #3498db;
+    margin: 0;
+}
+.card__bio {
+    color: #333;
+    font-size: 0.9em;
+}
+.navbar {
+    background-color: #333;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navbar__logo {
+    color: #fff;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+.navbar__menu {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+.navbar__item {
+    margin-left: 20px;
+}
+.navbar__item a {
+    color: #fff;
+    text-decoration: none;
+    padding: 5px 10px;
+}
+.navbar__item a:hover {
+    background-color: #555;
+    border-radius: 4px;
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  .two-column {
+    display: block;
+  }
+
+  .column {
+    width: 100%;
+    padding: 0;
+  }
+  @media (max-width: 480px) 
+    h1 {
+      font-size: 20px;
+    }
+  
+    p {
+      font-size: 14px;
+    }
+  
+
