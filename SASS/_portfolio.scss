@@ -1,0 +1,21 @@
+// Estilos para la página de portafolio
+.portfolio {
+    padding: 20px;
+
+    .portfolio-item {
+        background-color: $card-bg-color;
+        padding: 15px;
+        border-radius: $border-radius;
+        box-shadow: 0 4px 8px $shadow-color;
+        margin-bottom: 20px;
+
+        img {
+            width: 20%;
+            border-radius: $border-radius;
+        }
+
+        h2 {
+            margin-top: 10px;
+        }
+    }
+}

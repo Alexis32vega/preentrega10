@@ -1,0 +1,19 @@
+// Estilos para la página de servicios
+.services {
+    padding: 20px;
+    .service {
+        background-color: $card-bg-color;
+        padding: 15px;
+        border-radius: $border-radius;
+        box-shadow: 0 4px 8px $shadow-color;
+        margin-bottom: 20px;
+        
+        h2 {
+            margin-top: 0;
+        }
+        
+        p {
+            margin: 10px 0;
+        }
+    }
+}

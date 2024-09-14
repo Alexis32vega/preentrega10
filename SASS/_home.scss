@@ -1,0 +1,23 @@
+// Estilos para la página de inicio
+.intro {
+    text-align: center;
+    padding: 40px;
+    background-color: $card-bg-color;
+    border-radius: $border-radius;
+    box-shadow: 0 8px 16px $shadow-color;
+
+    h2 {
+        margin: 0;
+        font-size: 2.5rem;
+    }
+
+    p {
+        font-size: 1.2rem;
+        margin: 20px 0;
+    }
+
+    .btn {
+        background-color: $secondary-color;
+        color: $text-color;
+    }
+}
